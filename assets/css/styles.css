@@ -95,7 +95,8 @@ button {
   object-position: center 18%;
 }
 
-.brand-name > span,
+.brand > span > span,
+.footer .brand > span,
 .hero h1 span,
 .section-heading span,
 .contact-inner h2 span {
