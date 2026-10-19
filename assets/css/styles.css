@@ -77,12 +77,25 @@ button {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-size: 1.2rem;
   font-weight: 750;
   letter-spacing: -0.05em;
 }
 
-.brand span,
+.brand-photo {
+  width: 38px;
+  height: 38px;
+  flex: 0 0 auto;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 18%;
+}
+
+.brand-name > span,
 .hero h1 span,
 .section-heading span,
 .contact-inner h2 span {

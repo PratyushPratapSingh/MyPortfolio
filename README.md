@@ -16,6 +16,7 @@ Open [http://localhost:8000](http://localhost:8000). Stop the server with `Ctrl+
 ## Portfolio sections
 
 - **Introduction:** role, engineering focus, and links to GitHub.
+- **Identity:** profile photo in the header/footer and as the browser favicon.
 - **About:** a short professional summary and LinkedIn link.
 - **Toolkit:** profile-listed skills and separate technologies intended for portfolio projects.
 - **Project roadmap:** four planned case studies covering CI/CD, cloud IaC, Kubernetes GitOps, and observability.
