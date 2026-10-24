@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#10171b">
-    <meta name="description" content="Pratyush Pratap Singh's DevOps engineering portfolio, skills, and project roadmap.">
+    <meta name="description" content="Pratyush Pratap Singh's DevOps engineering portfolio, live LeetCode progress, skills, and project roadmap.">
     <title>Pratyush Pratap Singh | DevOps Engineer</title>
     <link rel="icon" href="assets/img/favicon.svg?v=2" type="image/svg+xml">
-    <link rel="stylesheet" href="assets/css/styles.css?v=9">
+    <link rel="stylesheet" href="assets/css/styles.css?v=10">
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -23,6 +23,7 @@
         <div class="nav-menu" id="nav-menu">
           <a class="nav-link" href="#about">About</a>
           <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#leetcode">LeetCode</a>
           <a class="nav-link" href="#projects">Projects</a>
           <a class="nav-link nav-link--cta" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
         </div>
@@ -39,13 +40,13 @@
         <div class="hero-copy">
           <p class="eyebrow"><span class="status-dot"></span> DEVOPS ENGINEER</p>
           <h1 id="hero-title">Building reliable<br>systems that <span>ship.</span></h1>
-          <p class="hero-summary">I'm Pratyush Pratap Singh. I work across cloud infrastructure, automation, and software delivery to help teams build and operate dependable systems.</p>
+          <p class="hero-summary">I'm Pratyush Pratap Singh. I work across cloud infrastructure, automation, and software delivery—and I'm building AI agents to create more capable, dependable systems.</p>
           <div class="hero-actions">
             <a class="button button--primary" href="#projects">Explore my projects <span aria-hidden="true">↓</span></a>
             <a class="button button--text" href="https://github.com/PratyushPratapSingh" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
           </div>
           <div class="hero-meta">
-            <span>Cloud infrastructure</span><span>CI/CD automation</span><span>Observability</span>
+            <span>Cloud infrastructure</span><span>CI/CD automation</span><span>Observability</span><span>AI agent development</span>
           </div>
         </div>
         <div class="hero-card" aria-label="DevOps workflow illustration">
@@ -70,9 +71,9 @@
             <h2 class="section-heading" id="about-title">More than a profile.<br><span>A record of how I build.</span></h2>
           </div>
           <div class="about-copy">
-            <p>My focus is bringing development and operations together: automating repeatable work, making infrastructure easier to manage, and improving how software moves from code to production.</p>
+            <p>My focus is bringing development and operations together: automating repeatable work, making infrastructure easier to manage, and improving how software moves from code to production. I'm also building AI agents to explore practical ways intelligent automation can help people and teams.</p>
             <p>This portfolio is being developed as a practical showcase. The project cards below are clearly marked as concepts until there are completed implementations and public repositories to link.</p>
-            <a class="text-link" href="https://www.linkedin.com/in/pratyush-p-860619177/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="https://www.linkedin.com/in/pratyushpratapsingh/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
           </div>
         </div>
       </section>
@@ -114,57 +115,119 @@
         </div>
       </section>
 
+      <section class="section leetcode-section" id="leetcode" aria-labelledby="leetcode-title">
+        <div class="container">
+          <div class="leetcode-heading">
+            <div>
+              <p class="eyebrow">03 / PROBLEM SOLVING</p>
+              <h2 class="section-heading" id="leetcode-title">Small steps.<br><span>Sharper thinking.</span></h2>
+            </div>
+            <a class="text-link" href="https://leetcode.com/u/pratyushpratapsingh11/" target="_blank" rel="noopener noreferrer">View LeetCode profile <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="leetcode-panel" aria-busy="true">
+            <div class="leetcode-total">
+              <p class="leetcode-label">PROBLEMS SOLVED</p>
+              <p class="leetcode-total-value" id="leetcode-total">—</p>
+              <p class="leetcode-submissions" id="leetcode-submissions">Accepted submissions: —</p>
+            </div>
+            <div class="leetcode-breakdown" role="group" aria-label="Solved problems by difficulty">
+              <article class="leetcode-stat leetcode-stat--easy">
+                <span class="leetcode-stat-label">Easy</span>
+                <strong id="leetcode-easy">—</strong>
+                <span class="leetcode-stat-note">problems solved</span>
+              </article>
+              <article class="leetcode-stat leetcode-stat--medium">
+                <span class="leetcode-stat-label">Medium</span>
+                <strong id="leetcode-medium">—</strong>
+                <span class="leetcode-stat-note">problems solved</span>
+              </article>
+              <article class="leetcode-stat leetcode-stat--hard">
+                <span class="leetcode-stat-label">Hard</span>
+                <strong id="leetcode-hard">—</strong>
+                <span class="leetcode-stat-note">problems solved</span>
+              </article>
+            </div>
+            <section class="leetcode-recent" aria-labelledby="leetcode-recent-title">
+              <h3 class="leetcode-label" id="leetcode-recent-title">LATEST ATTEMPT</h3>
+              <ol class="leetcode-recent-list" id="leetcode-recent-list" aria-live="polite" aria-busy="true">
+                <li class="leetcode-recent-item">Loading recent submissions…</li>
+              </ol>
+            </section>
+            <div class="leetcode-footer">
+              <p class="leetcode-status" id="leetcode-status" role="status" aria-live="polite">Connecting to LeetCode…</p>
+              <div class="leetcode-refresh">
+                <span id="leetcode-updated">Updated when connected</span>
+                <button class="leetcode-refresh-button" id="leetcode-refresh" type="button">Refresh stats</button>
+              </div>
+            </div>
+          </div>
+          <noscript><p class="leetcode-noscript">Enable JavaScript to load live stats, or visit the LeetCode profile above.</p></noscript>
+        </div>
+      </section>
+
       <section class="section projects-section" id="projects" aria-labelledby="projects-title">
         <div class="container">
           <div class="projects-heading">
             <div>
-              <p class="eyebrow">03 / PROJECT ROADMAP</p>
+              <p class="eyebrow">04 / PROJECT ROADMAP</p>
               <h2 class="section-heading" id="projects-title">Proof through<br><span>real-world projects.</span></h2>
             </div>
             <p class="section-lead">A focused roadmap drawn from production DevOps workflows. These are concepts—not claims of completed work.</p>
           </div>
           <div class="project-grid">
-            <article class="project-card">
+            <a class="project-card" href="https://github.com/PratyushPratapSingh/Automated-Delivery-Pipeline" target="_blank" rel="noopener noreferrer" aria-label="View Automated delivery pipeline repository on GitHub">
               <div class="project-topline"><span class="project-index">PROJECT 01</span><span class="project-status">Planned</span></div>
               <h3>Automated delivery pipeline</h3>
               <p>Build, test, scan, and publish a container image through a pull-request-driven CI/CD workflow.</p>
               <div class="tag-list"><span>GitHub Actions</span><span>Docker</span><span>CI/CD</span></div>
               <p class="project-outcome"><strong>Demonstrates</strong> repeatable releases, automated checks, and secure image publishing.</p>
-            </article>
-            <article class="project-card">
+              <span class="project-repository-link">View repository <span aria-hidden="true">↗</span></span>
+            </a>
+            <a class="project-card" href="https://github.com/PratyushPratapSingh/Infrastructure-As-Code" target="_blank" rel="noopener noreferrer" aria-label="View Cloud infrastructure as code repository on GitHub">
               <div class="project-topline"><span class="project-index">PROJECT 02</span><span class="project-status">Planned</span></div>
               <h3>Cloud infrastructure as code</h3>
               <p>Provision a small, documented AWS environment with reusable Terraform, environment separation, and cost-aware defaults.</p>
               <div class="tag-list"><span>AWS</span><span>Terraform</span><span>Linux</span></div>
               <p class="project-outcome"><strong>Demonstrates</strong> infrastructure automation, secure configuration, and repeatable setup.</p>
-            </article>
-            <article class="project-card">
+              <span class="project-repository-link">View repository <span aria-hidden="true">↗</span></span>
+            </a>
+            <a class="project-card" href="https://github.com/PratyushPratapSingh/Kubernetes_GitOps_deployment" target="_blank" rel="noopener noreferrer" aria-label="View Kubernetes GitOps deployment repository on GitHub">
               <div class="project-topline"><span class="project-index">PROJECT 03</span><span class="project-status">Planned</span></div>
               <h3>Kubernetes GitOps deployment</h3>
               <p>Deploy a containerized service to Kubernetes from version-controlled manifests, with health checks and a documented rollback path.</p>
               <div class="tag-list"><span>Kubernetes</span><span>Argo CD</span><span>Helm</span></div>
               <p class="project-outcome"><strong>Demonstrates</strong> declarative delivery, orchestration, and operational readiness.</p>
-            </article>
-            <article class="project-card">
+              <span class="project-repository-link">View repository <span aria-hidden="true">↗</span></span>
+            </a>
+            <a class="project-card" href="https://github.com/PratyushPratapSingh/Monitoring_and_centralized_logs" target="_blank" rel="noopener noreferrer" aria-label="View Monitoring and centralized logs repository on GitHub">
               <div class="project-topline"><span class="project-index">PROJECT 04</span><span class="project-status">Planned</span></div>
               <h3>Monitoring &amp; centralized logs</h3>
               <p>Collect service and infrastructure signals, build useful dashboards, and document actionable alert thresholds.</p>
               <div class="tag-list"><span>Prometheus</span><span>Grafana</span><span>ELK</span></div>
               <p class="project-outcome"><strong>Demonstrates</strong> observability, troubleshooting, and reliability thinking.</p>
-            </article>
+              <span class="project-repository-link">View repository <span aria-hidden="true">↗</span></span>
+            </a>
+            <a class="project-card" href="https://github.com/PratyushPratapSingh/AI_agent_development" target="_blank" rel="noopener noreferrer" aria-label="View AI agent development repository on GitHub">
+              <div class="project-topline"><span class="project-index">PROJECT 05</span><span class="project-status project-status--active">In progress</span></div>
+              <h3>AI agent development</h3>
+              <p>Building AI agents to explore practical automation, useful tool use, and multi-step workflows.</p>
+              <div class="tag-list"><span>AI agents</span><span>Automation</span><span>Tool use</span></div>
+              <p class="project-outcome"><strong>Focus</strong> creating useful, dependable agent experiences.</p>
+              <span class="project-repository-link">View repository <span aria-hidden="true">↗</span></span>
+            </a>
           </div>
-          <p class="roadmap-note">Each project will earn a repository link and a detailed case study after implementation, testing, and documentation.</p>
+          <p class="roadmap-note">Repository links are provided for each project. Detailed case studies will follow implementation, testing, and documentation.</p>
         </div>
       </section>
 
       <section class="contact-section" id="contact" aria-labelledby="contact-title">
         <div class="container contact-inner">
           <div>
-            <p class="eyebrow">04 / CONTACT</p>
+            <p class="eyebrow">05 / CONTACT</p>
             <h2 id="contact-title">Let's build something<br><span>reliable.</span></h2>
           </div>
           <div class="contact-actions">
-            <a class="button button--light" href="https://www.linkedin.com/in/pratyush-p-860619177/" target="_blank" rel="noopener noreferrer">Message me on LinkedIn <span aria-hidden="true">↗</span></a>
+            <a class="button button--light" href="https://www.linkedin.com/in/pratyushpratapsingh/" target="_blank" rel="noopener noreferrer">Message me on LinkedIn <span aria-hidden="true">↗</span></a>
             <a class="contact-github" href="https://github.com/PratyushPratapSingh" target="_blank" rel="noopener noreferrer">Explore GitHub <span aria-hidden="true">↗</span></a>
           </div>
         </div>

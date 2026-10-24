@@ -1,6 +1,6 @@
 # DevOps Resume Portfolio
 
-A responsive, project-first portfolio for Pratyush Pratap Singh. It presents a concise professional introduction, the tools listed in the existing profile, and a roadmap of practical DevOps projects. Roadmap items are labelled **Planned** so they are not mistaken for completed work.
+A responsive, project-first portfolio for Pratyush Pratap Singh. It presents a concise professional introduction, AI agent development, the tools listed in the existing profile, and practical DevOps projects. Project cards show whether work is planned or in progress.
 
 ## Preview locally
 
@@ -15,21 +15,23 @@ Open [http://localhost:8000](http://localhost:8000). Stop the server with `Ctrl+
 
 ## Portfolio sections
 
-- **Introduction:** role, engineering focus, and links to GitHub.
+- **Introduction:** role, cloud infrastructure, CI/CD automation, observability, AI agent development, and links to GitHub.
 - **Identity:** circular profile photo beside the name in the header and a self-contained circular monogram favicon.
 - **About:** a short professional summary and LinkedIn link.
 - **Toolkit:** profile-listed skills and separate technologies intended for portfolio projects.
-- **Project roadmap:** four planned case studies covering CI/CD, cloud IaC, Kubernetes GitOps, and observability.
+- **LeetCode:** live problem totals by difficulty and the latest public attempt, with its problem link, status, attempted date, and a manual refresh.
+- **Projects:** five cards covering CI/CD, cloud IaC, Kubernetes GitOps, observability, and AI agent development. The four DevOps cards link to their GitHub repositories; AI agent development is marked in progress.
 - **Contact:** direct LinkedIn and GitHub links; no form or exposed contact-service key.
 
 ## Technology
 
 - Semantic HTML5
 - CSS with responsive layouts and reduced-motion support
-- Vanilla JavaScript for the accessible mobile menu and current year
-- GitHub and LinkedIn profile links
+- Vanilla JavaScript for the accessible mobile menu, current year, and LeetCode stats
+- GitHub, LinkedIn, and LeetCode profile links
+- LeetCode public profile stats via a community API (no credentials)
 
-The current implementation deliberately has no server-side API, database, login, MCP connection, or third-party form integration. See [4.database.md](./4.database.md), [5.api.md](./5.api.md), [11.authentication-and-security.md](./11.authentication-and-security.md), [12.mcp-connection.md](./12.mcp-connection.md), and [13.integrations.md](./13.integrations.md) before adding those capabilities.
+The current implementation deliberately has no server-side API, database, login, MCP connection, or third-party form integration. The LeetCode stats panel does make a public browser request to a community API; see [13.integrations.md](./13.integrations.md) for details. See [4.database.md](./4.database.md), [5.api.md](./5.api.md), [11.authentication-and-security.md](./11.authentication-and-security.md), and [12.mcp-connection.md](./12.mcp-connection.md) before adding other capabilities.
 
 `assets/scss/styles.scss` is a legacy, uncompiled stylesheet; `assets/css/styles.css` is the stylesheet served by the page.
 
